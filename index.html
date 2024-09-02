@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+    <div class="urna">
+        <h1>Urna Eletrônica</h1>
+        <div class="candidatos">
+            <button onclick="votar(1)">Candidate 1</button>
+            <button onclick="votar(2)">Candidate 2</button>
+            <button onclick="votar(3)">Candidate 3</button>
+            <button onclick="votar(4)">Candidate 4</button>
+            <button onclick="votar(5)">Candidate 5</button>
+            <button onclick="votar(6)">Candidate 6</button>
+            <button onclick="votar(7)">Candidate 7</button>
+            <button onclick="votar(8)">Candidate 8</button>
+        </div>
+        <button class="resultado" onclick="mostrarResultado()">Ver Resultado</button>
+    </div>
+    <div id="resultado" class="resultado-container">
+        <h2>Resultado da Votação</h2>
+        <p id="votos1">Candidate 1: 0 votos</p>
+        <p id="votos2">Candidate 2: 0 votos</p>
+        <p id="votos3">Candidate 3: 0 votos</p>
+        <p id="votos4"> Candidate 4: 0 votos</p>
+        <p id="votos5"> Candidate 5: 0 votos</p>
+        <p id="votos6"> Candidate 6: 0 votos</p>
+        <p id="votos7"> Candidate 7: 0 votos</p>
+        <p id="votos8"> Candidate 8: 0 votos</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
